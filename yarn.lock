@@ -1196,6 +1196,11 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@ilumin/prettier-config@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@ilumin/prettier-config/-/prettier-config-0.1.1.tgz#e2ee99cdfd82ece3ecfe43349b60e2fe34a3f51d"
+  integrity sha512-vqNVZuHshSNqTx2S3VyF+6U469slGcBl4bKcpf3egZVojD5oJpEI2HFEEcX2OfnjxRFpLEkQ+WAbgxPgC5GXHA==
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
@@ -4260,6 +4265,11 @@ emojis-list@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
   integrity sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==
+
+emotion@^11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/emotion/-/emotion-11.0.0.tgz#e33353668e72f0adea1f6fba790dc6c5b05b45d9"
+  integrity sha512-QW3CRqic3aRw1OBOcnvxaHEpCmxtlGwZ5tM9dV5rY3Rn+F41E8EgTPOqJ5VfsqQ5ZXHDs2zSDyUwGI0ZfC2+5A==
 
 encodeurl@~1.0.2:
   version "1.0.2"
