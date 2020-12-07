@@ -61,6 +61,6 @@ export default function Feedback() {
       return <ThanksScreen onClose={() => send({ type: 'CLOSE' })} />
     case 'closed':
     default:
-      return null
+      return <div data-testid="empty-screen" />
   }
 }
