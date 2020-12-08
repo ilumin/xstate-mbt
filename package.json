@@ -60,6 +60,7 @@
       "!src/**/*.d.ts",
       "!src/**/index.{js,tsx,ts,tsx}",
       "!src/App.tsx",
+      "!src/machines/*",
       "!src/reportWebVitals.ts",
       "!<rootDir>/node_modules/"
     ],
