@@ -11,5 +11,5 @@ export function useKeyDown(key: any, onKeyDown: any) {
     window.addEventListener('keydown', handler)
 
     return () => window.removeEventListener('keydown', handler)
-  }, [onKeyDown])
+  }, [onKeyDown]) // eslint-disable-line
 }
