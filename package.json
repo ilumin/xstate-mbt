@@ -28,6 +28,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:coverage": "react-scripts test --coverage --run-in-band --watchAll",
+    "test:e2e": "jest -c jest.config.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -53,13 +54,16 @@
     "@xstate/test": "^0.4.1",
     "chai": "^4.2.0",
     "jest-puppeteer": "^4.4.0",
-    "puppeteer": "^5.5.0"
+    "puppeteer": "^5.5.0",
+    "ts-jest": "^26.4.4",
+    "ts-jest-puppeteer": "^0.0.5"
   },
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}",
       "!src/**/*.styled.{js,jsx,ts,tsx}",
       "!src/**/*.d.ts",
+      "!src/**/*.e2e.{js,ts}",
       "!src/**/index.{js,tsx,ts,tsx}",
       "!src/App.tsx",
       "!src/machines/*",

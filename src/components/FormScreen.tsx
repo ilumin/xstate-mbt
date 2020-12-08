@@ -9,10 +9,9 @@ export default function FormScreen({ onSubmit, onClose }: any) {
     <StyledScreen
       as="form"
       data-testid="form-screen"
-      onSubmit={(e) => {
+      onSubmit={(e: any) => {
         e.preventDefault()
-        const target = e.target as any
-        const { response } = target.elements
+        const { response } = e.target.elements
 
         onSubmit({
           value: response,
